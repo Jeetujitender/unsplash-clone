@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* text-align: center; */
+}
+
+.header1 {
+  /* margin: 10px; */
+  /* background-color: aquamarine; */
+  margin: 0px 0px 30px 0px;
+  /* height: 40px; */
+  /* text-align: center; */
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 25%;
+}
+
+.middle {
+  flex: 50%;
+  height: 500px;
+}
+
+.right {
+  flex: 25%;
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    flex-direction: column;
+  }
+}
