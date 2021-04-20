@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.main {
+  margin: 50px 100px;
+}
+label {
+  margin-left: 300px;
+}
+
+.loadmoreButton {
+  /* visibility: hidden; */
+  padding: 10px 15px 10px 15px;
+  background: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  margin-left: 50%;
+  margin-top: 10px;
+}
